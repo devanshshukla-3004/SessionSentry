@@ -1,0 +1,13 @@
+{
+  "application": "Training Portal (synthetic sample)",
+  "cookies": [
+    {"name": "session_id", "purpose": "session", "secure": false, "httpOnly": false, "sameSite": "None"},
+    {"name": "preferences", "purpose": "preference", "secure": true, "httpOnly": false, "sameSite": "Lax"}
+  ],
+  "session_config": {
+    "rotation_on_login": false,
+    "idle_timeout_minutes": 90,
+    "absolute_timeout_minutes": 1440,
+    "logout_invalidates_session": false
+  }
+}
